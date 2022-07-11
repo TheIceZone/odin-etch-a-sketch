@@ -1,0 +1,34 @@
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+    flex-direction: column-reverse;
+}
+
+.button-settings {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+#grid-size {
+    background-color: violet;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#grid {
+    display: grid;
+}
+
+.grid-items {
+    border: 1px solid teal;
+    text-align: center;
+}
